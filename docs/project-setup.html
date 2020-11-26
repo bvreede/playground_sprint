@@ -54,6 +54,7 @@
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
+<link href="libs/vembedr-0.1.4/css/vembedr.css" rel="stylesheet" />
 
 
 <style type="text/css">
@@ -177,8 +178,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 * using git for version control
 * publishing your project on github
 * Choosing a license</p>
-<p>Project setup slides for reference:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="project-setup.html#cb2-1"></a>knitr<span class="op">::</span><span class="kw">include_url</span>(<span class="st">&#39;https://utrechtuniversity.github.io/workshop-computational-reproducibility/slides/slides_project-setup.html#1&#39;</span>)</span></code></pre></div>
+<p>Project setup slides for reference :</p>
+<p>embed_url(“<a href="https://www.youtube.com/watch?v=uV4UpCq2azs" class="uri">https://www.youtube.com/watch?v=uV4UpCq2azs</a>”)</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="project-setup.html#cb2-1"></a>vembedr<span class="op">::</span><span class="kw">embed_url</span>(<span class="st">&quot;https://www.youtube.com/watch?v=uV4UpCq2azs&quot;</span>)</span></code></pre></div>
+<div class="vembedr">
+<div>
+<iframe src="https://www.youtube.com/embed/uV4UpCq2azs" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="project-setup.html#cb3-1"></a>knitr<span class="op">::</span><span class="kw">include_url</span>(<span class="st">&#39;https://utrechtuniversity.github.io/workshop-computational-reproducibility/slides/slides_project-setup.html#1&#39;</span>)</span></code></pre></div>
 <iframe src="https://utrechtuniversity.github.io/workshop-computational-reproducibility/slides/slides_project-setup.html#1" width="672" height="400px">
 </iframe>
 </div>
@@ -198,7 +206,7 @@ Be sure to ask for help when you need it!</p>
 <img src="https://www.youtube.com/watch?v=zNzZ1PfUDNk" /></p>
 <p><img src="https://vimeo.com/142172484" />
 <img src="https://player.vimeo.com/video/142172484" /></p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="project-setup.html#cb3-1"></a>knitr<span class="op">::</span><span class="kw">include_url</span>(<span class="st">&#39;https://vimeo.com/462773031&#39;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="project-setup.html#cb4-1"></a>knitr<span class="op">::</span><span class="kw">include_url</span>(<span class="st">&#39;https://vimeo.com/462773031&#39;</span>)</span></code></pre></div>
 <iframe src="https://vimeo.com/462773031" width="672" height="400px">
 </iframe>
 <p><a href="https://vimeo.com/462773031">Video: Project management</a></p>

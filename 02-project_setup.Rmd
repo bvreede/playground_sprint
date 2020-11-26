@@ -8,7 +8,14 @@ This section covers the following topics:
 * publishing your project on github
 * Choosing a license
 
-Project setup slides for reference:
+Project setup slides for reference :
+
+embed_url("https://www.youtube.com/watch?v=uV4UpCq2azs")
+
+```{r}
+vembedr::embed_url("https://www.youtube.com/watch?v=uV4UpCq2azs")
+```
+
 
 ```{r}
 knitr::include_url('https://utrechtuniversity.github.io/workshop-computational-reproducibility/slides/slides_project-setup.html#1')
