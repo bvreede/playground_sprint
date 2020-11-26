@@ -33,7 +33,6 @@
   
 <link rel="prev" href="welcome.html"/>
 
-<script src="libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -58,17 +57,18 @@
 
 
 <style type="text/css">
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -88,7 +88,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -139,11 +139,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
 <li class="chapter" data-level="1" data-path="welcome.html"><a href="welcome.html"><i class="fa fa-check"></i><b>1</b> Welcome</a></li>
-<li class="chapter" data-level="2" data-path="project-setup.html"><a href="project-setup.html"><i class="fa fa-check"></i><b>2</b> Project setup &amp; version control with git</a>
-<ul>
+<li class="chapter" data-level="2" data-path="project-setup.html"><a href="project-setup.html"><i class="fa fa-check"></i><b>2</b> Project setup &amp; version control with git</a><ul>
 <li class="chapter" data-level="2.1" data-path="project-setup.html"><a href="project-setup.html#content"><i class="fa fa-check"></i><b>2.1</b> Content</a></li>
-<li class="chapter" data-level="2.2" data-path="project-setup.html"><a href="project-setup.html#exercises"><i class="fa fa-check"></i><b>2.2</b> Exercises</a>
-<ul>
+<li class="chapter" data-level="2.2" data-path="project-setup.html"><a href="project-setup.html#exercises"><i class="fa fa-check"></i><b>2.2</b> Exercises</a><ul>
 <li class="chapter" data-level="2.2.1" data-path="project-setup.html"><a href="project-setup.html#project-setup-1"><i class="fa fa-check"></i><b>2.2.1</b> 1. Project setup</a></li>
 <li class="chapter" data-level="2.2.2" data-path="project-setup.html"><a href="project-setup.html#version-control"><i class="fa fa-check"></i><b>2.2.2</b> 2. Version control</a></li>
 <li class="chapter" data-level="2.2.3" data-path="project-setup.html"><a href="project-setup.html#publication-licensing"><i class="fa fa-check"></i><b>2.2.3</b> 3. Publication &amp; licensing</a></li>
@@ -169,9 +167,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="project-setup" class="section level1" number="2">
+<div id="project-setup" class="section level1">
 <h1><span class="header-section-number">Chapter 2</span> Project setup &amp; version control with git</h1>
-<div id="content" class="section level2" number="2.1">
+<div id="content" class="section level2">
 <h2><span class="header-section-number">2.1</span> Content</h2>
 <p>This section covers the following topics:
 * Setting up a folder structure
@@ -190,16 +188,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <iframe src="https://utrechtuniversity.github.io/workshop-computational-reproducibility/slides/slides_project-setup.html#1" width="672" height="400px">
 </iframe>
 </div>
-<div id="exercises" class="section level2" number="2.2">
+<div id="exercises" class="section level2">
 <h2><span class="header-section-number">2.2</span> Exercises</h2>
 <p>Time for some hands-on practice!
 We have 3 short videos and accompanying exercises for you to go through one by one.
 Watch the video first, then apply the exercises to your own project.
 Use the <a href="../slides/slides_project-setup.html">slides</a> linked above to follow links discussed in the video.
 Be sure to ask for help when you need it!</p>
-<div id="project-setup-1" class="section level3" number="2.2.1">
+<div id="project-setup-1" class="section level3">
 <h3><span class="header-section-number">2.2.1</span> 1. Project setup</h3>
-<div id="video" class="section level4" number="2.2.1.1">
+<div id="video" class="section level4">
 <h4><span class="header-section-number">2.2.1.1</span> 1.1 Video</h4>
 <p><img src="https://vimeo.com/462773031" /></p>
 <p><img src="https://youtu.be/zNzZ1PfUDNk" />
@@ -211,7 +209,7 @@ Be sure to ask for help when you need it!</p>
 </iframe>
 <p><a href="https://vimeo.com/462773031">Video: Project management</a></p>
 </div>
-<div id="exercise" class="section level4" number="2.2.1.2">
+<div id="exercise" class="section level4">
 <h4><span class="header-section-number">2.2.1.2</span> 1.2 Exercise</h4>
 <p><em>NB: You can check the slides for more detail.</em>
 - Use cookiecutter to install a project structure in your system, following the video or <a href="../slides/slides_project-setup.html#4">these slides</a>.
@@ -222,13 +220,13 @@ Be sure to ask for help when you need it!</p>
 - Does your code run in the new folder structure?</p>
 </div>
 </div>
-<div id="version-control" class="section level3" number="2.2.2">
+<div id="version-control" class="section level3">
 <h3><span class="header-section-number">2.2.2</span> 2. Version control</h3>
-<div id="video-1" class="section level4" number="2.2.2.1">
+<div id="video-1" class="section level4">
 <h4><span class="header-section-number">2.2.2.1</span> 2.1 Video</h4>
 <p><a href="https://vimeo.com/463264170">Video: version control with Git</a></p>
 </div>
-<div id="exercise-1" class="section level4" number="2.2.2.2">
+<div id="exercise-1" class="section level4">
 <h4><span class="header-section-number">2.2.2.2</span> 2.2 Exercise</h4>
 <ul>
 <li>Follow the steps in the video (or <a href="../slides/slides_project-setup.html#17">on these slides</a>) to turn your folder into a git repository</li>
@@ -245,13 +243,13 @@ Going through it today means we can assist you if necessary!)</li>
 </ul>
 </div>
 </div>
-<div id="publication-licensing" class="section level3" number="2.2.3">
+<div id="publication-licensing" class="section level3">
 <h3><span class="header-section-number">2.2.3</span> 3. Publication &amp; licensing</h3>
-<div id="video-2" class="section level4" number="2.2.3.1">
+<div id="video-2" class="section level4">
 <h4><span class="header-section-number">2.2.3.1</span> 3.1 Video</h4>
 <p><a href="https://vimeo.com/463659936">Video: Publication &amp; licensing</a></p>
 </div>
-<div id="exercise-2" class="section level4" number="2.2.3.2">
+<div id="exercise-2" class="section level4">
 <h4><span class="header-section-number">2.2.3.2</span> 3.2 Exercise</h4>
 <ul>
 <li>Check the license in your project</li>
