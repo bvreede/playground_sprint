@@ -1,6 +1,6 @@
 # Project setup & version control with git {#project-setup}
 
-## Content
+## Content for dummies
 
 This section covers the following topics:
 * Setting up a folder structure
