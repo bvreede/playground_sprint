@@ -1,6 +1,6 @@
 welcome
 project-setup
-content
+content-for-dummies
 exercises
 project-setup-1
 video
