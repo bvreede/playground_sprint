@@ -1,6 +1,6 @@
 # changes by Neha: added vembedr package to the list of packages to install
 # changes by Neha: replaced all instances of _book to docs,so that is the directory where the book is rendered to
-# note by Neha: I did not extend the bookdown run function to include the gitbook output yet 
+# note by Neha: I did not extend the bookdown run function to include the gitbook output. 
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
       - uses: r-lib/actions/setup-r@v1
       - uses: r-lib/actions/setup-pandoc@v1
       - name: Install rmarkdown
-        run: Rscript -e 'install.packages(c("rmarkdown","bookdown", "vembedr")'
+        run: Rscript -e 'install.packages(c("rmarkdown","bookdown", "vembedr"))'
       - name: Render Book
         run: Rscript -e 'bookdown::render_book("index.Rmd")'
       - uses: actions/upload-artifact@v1
