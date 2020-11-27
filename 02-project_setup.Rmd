@@ -17,8 +17,8 @@ vembedr::embed_url("https://www.youtube.com/watch?v=uV4UpCq2azs")
 ```
 
 
-```{r}
-knitr::include_url('https://utrechtuniversity.github.io/workshop-computational-reproducibility/slides/slides_project-setup.html#1')
+```{r, echo=F}
+knitr::include_url('slides/slides_project-setup.html#1')
 ```
 
 
